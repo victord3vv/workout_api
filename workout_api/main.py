@@ -3,7 +3,7 @@ from fastapi import FastAPI
 app = FastAPI(
     title='WorkoutAPI',
     version='0.1.0',
-    description='API para uma academia, desenvolvida no bootcamp de Python da DIO'
+    description='API para uma academia'
 )
 
 @app.get("/")
